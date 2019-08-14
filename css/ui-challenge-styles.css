@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/* //////////////////////// */
+/* /// Proiject 3 - Daily UI Challenge //// */
+/* //////////////////////// */
+
+/*  Global Styling  */
+
+.ubuntu {
+  text-transform: uppercase;
+}
+
+.project-details {
+  color: #3d3d3d;
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+  line-height:24px;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+
+.details-title, .details-text {
+    font-size: 16px;
+    letter-spacing: 0.82px;
+    line-height: 16px;
+}
+
+
+/*  Sections Styling  */
+.hero-container {
+  text-align: center;
+  padding-top: 4.25rem;
+  padding-bottom: 4.25rem;
+}
+
+.hero-container h1 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+
+.project-description {
+  padding-bottom: 1.25rem;
+}
+
+.temp-holder {
+    height:400px;
+    background-color:#f8f8f8;
+}
+
+.challenge-day {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.sticky-info {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 17%;
+  }
+  
+a {
+  text-decoration: none;
+}
+
+
+/*  Small Screen  */
+@media screen and (max-width: 39.9375em) {
+  .intro-display {
+    margin-top: -1rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.line-decor-top::before,
+.line-decor-bottom::after {
+  content: "";
+  width: 38px;
+  height: 0;
+  border-top: solid 1px #656363;
+  display: inline-block;
+}
+
+.line-decor-top::before {
+  margin-bottom: 2rem;
+}
+
+.line-decor-bottom::after {
+  margin-top: 2rem;
+}
+
+
+/*  Medium & Up  */
+@media screen and (min-width: 40em) {
+
+}
+
+
+/*  Small Only  */
+@media screen and (max-width:39.9375em) {
+
+}
+
+  /*  Large & Up  */
+  @media screen and (min-width:64em) {
+  .section-footer {
+    margin-top: 2.5rem;
+  }
+}
+
+  @media screen and (max-width:39.9375em) {
+  }
+
+
+  /*  Small Screen  */
+  @media screen and (max-width: 39.9375em) {
+  }
+
+  /* Medium only */
+  @media screen and (max-width: 63.9375em) {
+  }
+
+  /*  Small & Medium Only  */
+  @media screen and (max-width: 63.9375em) {
+  }
+
+  /*  Large & Up  */
+  @media screen and (min-width: 64em) {
+   
+  }
+
+
+  /*  Font Sizes for Different Screens  */
+  /* ////////////////////////////////// */
+  /*  Small Screen only  */
+  @media screen and (max-width: 39.9375em) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  /*  Small & Medium Screens Only  */
+  @media screen and (max-width: 63.9375em) {
+    .section-header {
+      font-size: 2rem;
+    }
+  }
+
+
+  /*  Global Footer Project Navigation */
+  .back-to-top {
+    text-align: center;
+  }
+
+  .back-to-top a {
+    text-decoration: none;
+  }
+
+  .back-to-top a:hover,  .back-to-top a:focus {
+    color: #3d3d3d;
+  }
+
+  .project-border {
+    border-top: solid #000000 1px;
+  }
+
+  .footer-container .grid-x {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .nav-direction {
+    text-transform: uppercase;
+  }

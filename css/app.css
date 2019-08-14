@@ -9,11 +9,19 @@
   color: #333333;
 }
 
+h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
 p,
 li,
 a {
   font-size: 1rem;
   line-height: 2rem;
+}
+
+.sticky-topbar-scrolled {
+  box-shadow: 0 3px 2px -2px rgba(0, 0, 0, .2);
 }
 
 
@@ -339,7 +347,7 @@ a {
 
 figure.effect-bubba:hover {
   /* background: #455865; */
-  background: #20202A;
+  background: rgb(39, 39, 44);
 }
 
 figure.effect-bubba img {
@@ -364,19 +372,19 @@ figure.effect-bubba figcaption::after {
   transition: opacity 0.45s, transform 0.45s;
 }
 
-figure.effect-bubba figcaption::before {
+/* figure.effect-bubba figcaption::before {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
-}
+} */
 
-figure.effect-bubba figcaption::after {
+/* figure.effect-bubba figcaption::after {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
   -webkit-transform: scale(1, 0);
   transform: scale(1, 0);
-}
+} */
 
 figure.effect-bubba h2 {
   padding-top: 20%;
@@ -408,6 +416,7 @@ figure.effect-bubba:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -473,7 +482,7 @@ figure.effect-bubba:hover p {
 
 .footer-message h2 {
   font-size: 1.5rem;
-  font-family: 'Roboto';
+  font-family: 'PT Sans', sans-serif;
 }
 
 .my-social-icons a+a {
