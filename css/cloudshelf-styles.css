@@ -45,39 +45,6 @@ h6 {
   font-weight: 600;
 }
 
-/* .bg-yellow {
-  background: #F6F6F6;
-} */
-
-/* .two-lines-decor {
-  height: 6px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  position: relative;
-} */
-
-.two-lines-decor::before,
-.two-lines-decor::after {
-  content: "";
-  overflow: hidden;
-  border-top: 1px solid #a4a3a3;
-  display: inline-block;
-  height: 0;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-
-.two-lines-decor::before {
-  width: 56px;
-  margin-bottom: 5px;
-  top: 0;
-}
-
-.two-lines-decor::after {
-  width: 38px;
-  bottom: 0;
-}
 
 .button {
   min-width: 250px;
