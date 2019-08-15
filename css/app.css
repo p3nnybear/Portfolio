@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
   margin: 0;
   padding: 0;
@@ -15,9 +14,7 @@ h2 {
   font-family: 'PT Sans', sans-serif;
 }
 
-p,
-li,
-a {
+p, li, a {
   font-size: 1rem;
   line-height: 2rem;
 }
@@ -25,7 +22,6 @@ a {
 .sticky-topbar-scrolled {
   box-shadow: 0 3px 2px -2px rgba(0, 0, 0, .2);
 }
-
 
 .portfolio {
   font-family: 'PT Sans', sans-serif;
@@ -36,7 +32,6 @@ a {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
 
 /* ///////  Top Bar /////// */
 
@@ -86,10 +81,12 @@ a {
 .menu-items li:last-child a {
   margin-right: 0px;
 }
+
 /******************** GLOBAL BUTTON ********************/
+
 .button {
   background-color: black;
-  box-shadow: 0px 3px 9px 0px rgba(204,211,218,30);
+  box-shadow: 0px 3px 9px 0px rgba(204, 211, 218, 30);
   border: none;
   border-radius: 1.8rem;
   color: white;
@@ -99,6 +96,7 @@ a {
   padding: 1rem 4.2rem;
   text-decoration: none;
 }
+
 .button {
   transition: background 0.5s;
 }
@@ -116,8 +114,7 @@ a {
 
 /*  Menu Items Hover & Underline Animation  */
 
-.menu-items li a:before,
-.menu-items li a:after {
+.menu-items li a:before, .menu-items li a:after {
   content: '';
   position: absolute;
   bottom: 2px;
@@ -139,21 +136,16 @@ a {
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.4s;
 }
 
-.menu-items li a:hover:before,
-.menu-items li a:focus:before,
-.menu-items li a:hover:after,
-.menu-items li a:focus:after {
+.menu-items li a:hover:before, .menu-items li a:focus:before, .menu-items li a:hover:after, .menu-items li a:focus:after {
   opacity: 1;
   transform: translateY(0);
 }
 
-.menu-items li a:hover:before,
-.menu-items li a:focus:before {
+.menu-items li a:hover:before, .menu-items li a:focus:before {
   transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
 }
 
-.menu-items li a:hover:after,
-.menu-items li a:focus:after {
+.menu-items li a:hover:after, .menu-items li a:focus:after {
   transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
 }
 
@@ -164,9 +156,9 @@ a {
   display: inline-block;
   /* float: right; */
   padding: 28px 20px;
-  padding-top:28px;
-  padding-bottom:28px;
-  padding-right:0;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-right: 0;
   padding-left: 20px;
   position: relative;
   user-select: none;
@@ -181,8 +173,7 @@ a {
   width: 18px;
 }
 
-.menu-icon-custom .navicon:before,
-.menu-icon-custom .navicon:after {
+.menu-icon-custom .navicon:before, .menu-icon-custom .navicon:after {
   background: #3d3d3d;
   content: '';
   display: block;
@@ -222,19 +213,15 @@ a {
   transform: rotate(45deg);
 }
 
-.menu-btn:checked~.menu-icon-custom:not(.steps) .navicon:before,
-.menu-btn:checked~.menu-icon-custom:not(.steps) .navicon:after {
+.menu-btn:checked~.menu-icon-custom:not(.steps) .navicon:before, .menu-btn:checked~.menu-icon-custom:not(.steps) .navicon:after {
   top: 0;
 }
 
-
 /* /// Work Page Styles //// */
-
 
 .greeting {
   margin-top: 6.5rem;
   margin-bottom: 1.5rem;
-  
 }
 
 .greeting .grid-x {
@@ -259,12 +246,10 @@ a {
   0% {
     transform: rotate(-5deg);
   }
-
   100% {
     transform: rotate(35deg);
   }
 }
-
 
 /*  Project Thumbnail Hover CSS Effect */
 
@@ -300,14 +285,11 @@ a {
   backface-visibility: hidden;
 }
 
-
-.project-thumb figcaption::before,
-.project-thumb figcaption::after {
+.project-thumb figcaption::before, .project-thumb figcaption::after {
   pointer-events: none;
 }
 
-.project-thumb figcaption,
-.project-thumb figcaption>a {
+.project-thumb figcaption, .project-thumb figcaption>a {
   position: absolute;
   top: 0;
   left: 0;
@@ -331,8 +313,7 @@ a {
   font-weight: 800;
 }
 
-.project-thumb h2,
-.project-thumb p {
+.project-thumb h2, .project-thumb p {
   margin: 0;
   color: #ffffff;
 }
@@ -361,8 +342,7 @@ figure.effect-bubba:hover img {
   opacity: 0.4;
 }
 
-figure.effect-bubba figcaption::before,
-figure.effect-bubba figcaption::after {
+figure.effect-bubba figcaption::before, figure.effect-bubba figcaption::after {
   position: absolute;
   top: 30px;
   right: 30px;
@@ -406,21 +386,18 @@ figure.effect-bubba p {
   transform: translate3d(0, 20px, 0);
 }
 
-figure.effect-bubba:hover figcaption::before,
-figure.effect-bubba:hover figcaption::after {
+figure.effect-bubba:hover figcaption::before, figure.effect-bubba:hover figcaption::after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
-figure.effect-bubba:hover h2,
-figure.effect-bubba:hover p {
+figure.effect-bubba:hover h2, figure.effect-bubba:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   font-family: 'PT Sans', sans-serif;
 }
-
 
 /* /// About Me Page Styles //// */
 
@@ -491,10 +468,7 @@ figure.effect-bubba:hover p {
   margin-left: 1.6rem
 }
 
-.mail,
-.logo-linkedin,
-.logo-github,
-.logo-dribbble-square {
+.mail, .logo-linkedin, .logo-github, .logo-dribbble-square {
   /* 30px */
   height: 1.875rem;
   width: 1.875rem;
@@ -505,17 +479,16 @@ figure.effect-bubba:hover p {
 }
 
 /*  Icons Bob CSS Transition  */
+
 @keyframes hvr-bob {
   0% {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
-
   50% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
   }
-
   100% {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
@@ -544,9 +517,7 @@ figure.effect-bubba:hover p {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-.hvr-bob:hover,
-.hvr-bob:focus,
-.hvr-bob:active {
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
   -webkit-animation-duration: .3s, 1.5s;
@@ -568,12 +539,10 @@ figure.effect-bubba:hover p {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
-
   50% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
   }
-
   100% {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
@@ -585,12 +554,10 @@ figure.effect-bubba:hover p {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
-
   50% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
   }
-
   100% {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
@@ -619,9 +586,7 @@ figure.effect-bubba:hover p {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-.hvr-bob:hover,
-.hvr-bob:focus,
-.hvr-bob:active {
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
   -webkit-animation-duration: .3s, 1.5s;
@@ -639,93 +604,87 @@ figure.effect-bubba:hover p {
 }
 
 /* //////////////////////// */
+
 /* //// Media Queries //// */
+
 /* //////////////////////// */
 
 /* Small Only */
+
 @media screen and (max-width: 39.9375em) {
   .header {
-    padding-top:0;
+    padding-top: 0;
     padding-bottom: 0;
   }
-
   .logo-image {
     height: 2.5rem;
   }
-
   #drop-menu .menu-items li {
     display: block;
     text-align: center;
     padding-top: 1rem;
   }
-
   .menu-items li a {
     margin-left: 0;
     margin-right: 0;
   }
-
   /* .greeting .portfolio {
     font-size: 2.5rem;
     align-content: center;
   } */
-
   .waver {
     font-size: 2.5rem;
   }
-
   figure.effect-bubba p {
     padding-top: 0.625rem;
     font-size: 0.675rem;
   }
-
   .intro-text {
     font-size: 1.15rem;
     line-height: 2rem;
   }
-
   .bio-text {
     margin-top: 1rem;
   }
 }
 
 /* Small & Medium  */
-@media screen and (max-width: 63.9375em) {
 
+@media screen and (max-width: 63.9375em) {
   .banner-background {
     margin-top: 0px;
   }
-
   figure h2 {
     font-size: 2rem;
   }
-
   figure.effect-bubba h2 {
     padding-top: 15%;
   }
 }
 
 /*  Medium Only  640px to 1023px */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
 
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
   figure.effect-bubba h2 {
     padding-top: 15%;
   }
-
   figure.effect-bubba p {
     padding-top: 0.65rem;
   }
 }
 
 /*  Medium & Up */
+
 @media (min-width: 40em) {
   .menu-icon-custom {
     display: none;
   }
 }
 
-
 /* //////////////////////// */
+
 /* //// Utility Classes //// */
+
 /* //////////////////////// */
 
 .pt1 {
@@ -762,7 +721,7 @@ figure.effect-bubba:hover p {
 }
 
 .grey {
-  color:#3d3d3d;
+  color: #3d3d3d;
 }
 
 .is-block {
