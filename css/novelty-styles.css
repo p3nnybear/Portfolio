@@ -9,6 +9,8 @@
 
 .ubuntu {
   text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -114,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .design-roles li:not(:first-child), .design-deliverables li:not(:first-child), .tools-software li:not(:first-child) {
   list-style: none;
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: 300;
 }
 
