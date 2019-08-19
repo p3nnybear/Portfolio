@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="./css/foundation.min.css">
     <link rel="stylesheet" href="./css/app.css">
     <link rel="stylesheet" href="./css/novelty-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
@@ -51,7 +54,7 @@
                                 data-responsive-menu="dropdown medium-horizontal">
                                 <li><a href="index.html">Work</a></li>
                                 <li><a href="aboutme.html">About &nbsp;Me</a></li>
-                                <li><a href="https://drive.google.com/open?id=1MahpJzRspysayy411-R6G2BIRu8rRUx1"
+                                <li><a href="https://drive.google.com/open?id=1C4OApcwDNPPF6q6Ht6uPpOSLi93-DaLS"
                                         target="_blank">Resume</a></li>
                             </ul>
                         </div>
@@ -89,7 +92,7 @@
                 </div>
                 <div class="cell medium-7 medium-order-1 text-left">
                     <h3 class="phase-title pb1">The Challenge</h3>
-                    <!-- <h2 class="section-header">Time, Money, and Preference</h2> -->
+                    <h2 class="section-header">Fashion, Trend, and User Friendly</h2>
                     <p>I decided to start up a fashion brand in Asia country called NØVELTY in 2018. The reason is there
                         are some luxury platform sells designer brands in Europe countries and North America but I do
                         not see any big platform that sells designer brands in Asia country. I think there is a
@@ -154,6 +157,13 @@
                 </div>
             </div>
         </div>
+        <div class="wrapper">
+            <canvas id="chart1" width="1600" height="900"></canvas>
+          </div>
+        <div class="wrapper">
+            <canvas id="chart2" width="1600" height="900"></canvas>
+        </div>
+        <script src="js/script.js"></script>
 
         <!-- <section class="research-findings section-container bg-yellow"> -->
         <!-- <h3 class="is-inline-block">Research Findings</h3> -->
@@ -248,7 +258,6 @@
                             <h4 class="is-inline-block">Goals</h4>
                             <ul class="personas-goals pb2">
                                 <li>Show the shopping record</li>
-                                <li>A friendly user interface, easy to use</li>
                                 <li>Information secured</li>
                                 <li>Products accuracy</li>
                             </ul>
@@ -258,6 +267,11 @@
                                 <li>Inventory</li>
                                 <li>Shipping wait time</li>
                             </ul>
+                            <h4 class="is-inline-block">Motivation</h4>
+                            <ul class="personas-frustrations">
+                                <li>A friendly user interface, easy to use</li>
+                            </ul>
+
                         </div>
                     </div>
                     <div class="cell medium-6">
@@ -274,15 +288,19 @@
                             <h4 class="is-inline-block">Goals</h4>
                             <ul class="personas-goals pb1">
                                 <li>Applying promotion code</li>
-                                <li>FaceID Checkout</li>
-                                <li>Faster checkout process</li>
+                                <li>Face ID Checkout</li>
                                 <li>Provide the newest design trend</li>
                             </ul>
                             <h4 class="is-inline-block">Frustrations</h4>
                             <ul class="personas-frustrations">
                                 <li>Authentic concern</li>
                                 <li>Hard to find specific items</li>
+                            </ul><br>
+                            <h4 class="is-inline-block">Motivation</h4>
+                            <ul class="personas-frustrations">
+                                <li>Faster checkout process</li>
                             </ul>
+
                         </div>
                     </div>
                 </div>
@@ -303,17 +321,20 @@
                             NØVELTY would differentiate itself. The key takeaway is that <span class="bold-text">no such
                                 application exists in this market</span>.</p>
 
-                        <div class="grid-x grid-padding-x align-left text-center section-container comp-analysis">
+                        <!-- <div class="grid-x grid-padding-x align-left text-center section-container comp-analysis">
                             <div class="cell small-4 medium-3"><img src="images/novelty/ssense logo.svg"
                                     alt="ssense Logo" /></div>
                             <div class="cell small-4 medium-3"><img src="images/novelty/farfetch.png"
                                     alt="Farfetch Logo" /></div>
                             <div class="cell small-4 medium-3"><img src="images/novelty/matchesfashion logo.png"
                                     alt="Matchesfashion Logo" class="pt1" /></div>
-                        </div>
-                        <a href="images/novelty/comp-analysis.png" class="see-more hvr-icon-forward"
+                        </div> -->
+                        <div class="cell small-4 medium-3"><img src="images/novelty/competitive analysis.png"
+                            alt="Matchesfashion Logo" class="pt1" /></div>
+
+                        <!-- <a href="images/novelty/competitive analysis.png" class="see-more hvr-icon-forward"
                             target="_blank">View Competitive Analysis<i
-                                class="fas fa-angle-double-right hvr-icon"></i></a>
+                                class="fas fa-angle-double-right hvr-icon"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -325,14 +346,10 @@
                         <h3 class="phase-title pb1">The Strategy</h3>
                         <h2 class="section-header">Information Architecture, User Stories, User Flows</h2>
                         <p>With the product concept and personas in mind, I began constructing the mobile sitemap,
-                            which laid the
-                            foundation and structure of Bömbox. Followed by listing out all possible actions that make
-                            the MVP a truly
-                            user-friendly, time-saving, intuitive, and functional mobile app, I was able to prioritize
-                            and eliminate
-                            user stories while spotting issues in user flows and functionalities. For me, this part of
-                            the process
-                            reinforced the product concept, scopes, and goals of the app.</p>
+                            which laid the foundation and structure of NØVELTY. Followed by listing out all possible actions that make
+                            the MVP a truly user-friendly, time-saving, intuitive, and functional mobile app, I was able to prioritize
+                            and eliminate user stories while spotting issues in user flows and functionalities. For me, this part of
+                            the process reinforced the product concept, scopes, and goals of the app.</p>
                     </div>
                     <div class="cell large-5 large-offset-0 show-for-large">
                         <img src="images/novelty/novelty-mockup-by-mac.png" alt="Mac Mockup" />
@@ -354,177 +371,219 @@
                             <li>I want to be able to checkout</li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="the-framework">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x align-center text-left">
-                    <div class="cell medium-8">
-                        <h3 class="phase-title pb1">The Framework</h3>
-                        <h2 class="section-header">Wireframe with Whimsical</h2>
-                        <p>Starting with wireframes, I was able to explore all of my ideas. I didn’t have to worry
-                            about anything else but the structure and how content was going to be laid out. Using
-                            Whimsical, I worked on refining the hand-drawn sketch, focused on hierarchy, design
-                            elements, as well as placements. I created multiple layouts for the same screen and asked
-                            for feedback. Although paper wireframes can communicate a whole lot by themselves, creating
-                            a mid-fidelity wireframe helped me gather more insightful feedback from potential users. I
-                            believe it is important never to ask my users to imagine things because it can sometimes go
-                            in a very different direction.</p>
+                    <div class="cell medium-offset-1 large-offset-0 large-3 large-text-center align-self-bottom">
+                        <a href="images/novelty/sitemap.png" class="see-more hvr-icon-forward pt1" target="_blank">
+                            <img src="images/sitemap.svg" alt="Sitemap Icon" class="show-for-large" />
+                            <br class="show-for-large">
+                            View Mobile Sitemap <i class="fas fa-angle-double-right hvr-icon"></i>
+                        </a>
+                        <br>
                     </div>
                 </div>
-            </div>
-            <img src="./images/novelty/noveltywireframe.svg" alt="novelty Wireframes" />
-            <div class="grid-container section-container">
-                <div class="grid-x grid-padding-x align-center text-left">
-                    <div class="cell medium-8">
-                        <p>To do some testings before jumping into high-fidelity mockups, I decided to create
-                            an interactive prototype with Whimsical. I particularly tested the following flows
-                            <ol class="number-list-style">
-                                <li><span class="bold-text">Sign up/ Sign in process</span></li>
-                                <li><span class="bold-text">Finding a specific item(s)</span></li>
-                                <li><span class="bold-text">Checkout process</span></li>
-                            </ol>
-                        </p>
-                        <div class="text-center pt1">
-                            <a href="https://invis.io/Y4T4ICUE58H" target="_blank" class="button hvr-shrink">View
-                                Interactive
-                                Prototype</a>
+                <div class="grid-x grid-padding-x show-for-large pt2">
+                    <div class="cell large-offset-2 large-8">
+                        <h4 class="section-sub-header">Onboarding User Flow</h4>
+                        <img src="images/novelty/onboarding user flow.png" alt="Onboarding User Flow"
+                            class="diagram pt2" />
+                    </div>
+                    <div class="grid-x grid-padding-x show-for-large pt2">
+                        <div class="cell large-offset-2 large-8">
+                            <h4 class="section-sub-header">Checkout process / Remove item(s) from the shopping cart</h4>
+                            <img src="images/novelty/checkout process.png" width= "1580" height="1080"  caption="" data-width="original" data-scaling="no" data-photoswipe-index="3" alt="Checkout process" class="diagram" />
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="the-experience section-container bg-yellow">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x align-center align-middle text-left">
-                    <div class="cell medium-10 large-8">
-                        <h3 class="phase-title pb1">The Experience</h3>
-                        <h2 class="section-header">Identity, Logo, Visual Design</h2>
-                        <p>The NØVELTY logo is minimal symbol design with the novelty concept and the Ø combination.
-                            This powerful symbol represents the NØVELTY shopping experience.</p>
-                    </div>
-                    <div class="cell medium-6 large-4 text-center show-for-medium">
-                        <img src="images/novelty/2 logo.svg" alt="Logo Design" class="lightbulb" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section-container grid-container">
-            <div class="grid-x grid-padding-x text-left">
-                <div class="cell medium-7 large-8">
-                    <h4 class="section-sub-header">Color Palette</h4>
-                    <p>NØVELTY uses minimal colors like white, black and shades of gray as the main color palette. It
-                        shows the luxury feeling for the users.</p>
-                </div>
-                <div class="cell medium-5 large-4">
-                    <div class="grid-x align-center">
-                        <div class="cell small-6">
-                        </div>
-                    </div>
-                    <img src="images/novelty/colorpalette.png" alt="Moodboard for Inspiration"
-                        class="moodboard show-for-medium align-self-bottom pt1" />
-                </div>
-
-                <div class="cell medium-7 large-8 pt2">
-                    <h4 class="section-sub-header">Typography</h4>
-                    <p> <span class="bold-text">Montserrat</span> is a geometric sans-serif typeface representative of
-                        the aesthetics, very simple and universal. It has an appearance of efficiency and forwardness in
-                        the design. It allows us to emphasize the voices on NØVELTY.</p>
-                    <a href=""
-                        class="see-more hvr-icon-forward is-block pt1 show-for-medium" target="_blank">View
-                        Styleguide<i class="fas fa-angle-double-right hvr-icon"></i></a>
-                </div>
-                <div class="cell medium-5 large-4 stylecard">
-                    <img src="images/novelty/font-montserrat.svg" alt="Typography Sampler" class="typography">
-                    <a href="images/novelty/font-montserrat.svg"
-                        class="see-more hvr-icon-forward is-block pt1 hide-for-medium" target="_blank">View
-                        Styleguide<i class="fas fa-angle-double-right hvr-icon"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="the-refinement section-container bg-yellow">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x align-center text-left">
-                    <div class="cell medium-8">
-                        <h3 class="phase-title pb1">The Refinement</h3>
-                        <h2 class="section-header">Testing &amp; Iteration</h2>
-
-                        <p>Usability tests and metrics revealed that some of the process and design decisions I made
-                            were not as intuitive as I thought. Referring back to the personas, I knew that users
-                            heavily value a
-                            user-friendly product and would like to minimize the time spent on understanding it. As a
-                            result, I needed to
-                            iterate, test, and achieve measurable outcomes to overcome these product shortcomings.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="challenges">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x align-middle align-center section-container">
-                    <div class="cell">
-                        <h4 class="section-sub-header text-center pb1">Challenge #1 - Path</h4>
-                    </div>
-                    <div class="cell medium-10 large-8 pt1 show-for-medium">
-                        <div class="grid-x grid-padding-x align-center">
-                            <div class="cell medium-5">
-                                <h5 class="testing-header is-inline-block">Feedback</h5>
-                                <ul>
-                                    <li>The users expect to see the path when they searched for the items through the
-                                        categories.</li>
-
-                                </ul>
-                                <span class="screenshot-wrapper">
-                                    <img src="images/novelty/Product.png" alt=""><br>
-                                    <em class="is-block pt1">Initial design</em>
-                                </span>
-                            </div>
-                            <div class="cell medium-5">
-                                <h5 class="testing-header is-inline-block">Solution</h5>
-                                <ul>
-                                    <li>Add the path, shows how to get to the product page.</li><br><br>
-                                </ul><br>
-                                <span class="screenshot-wrapper">
-                                    <img src="images/novelty/Product Iteration.png" alt=""><br>
-                                    <em class="is-block pt1">Final Design</em>
-                                </span>
+                        <div class="grid-x grid-padding-x show-for-large pt2">
+                            <div class="cell large-offset-2 large-8">
+                                <h4 class="section-sub-header">Sorting Product
+                                </h4>
+                                <img src="images/novelty/sorting product.png" width= "1580" height="1080" alt="Checkout process" caption="" data-width="original" data-scaling="no" data-photoswipe-index="3"
+                                    class="diagram pt2" />
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="conclusion section-container">
+
+                    <div class="the-framework">
                         <div class="grid-container">
-                            <div class="grid-x grid-padding-x text-left align-center">
-                                <div class="cell medium-10 large-8">
-                                    <h3 class="phase-title pb2">Conclusion</h3>
-                                    <h2 class="section-header pb1">Lessons Learned</h2>
-                                    <h4 class="section-sub-header">If I had more time,</h4>
-                                    <p>I would add more details on the landing page. I will do more screens and show
-                                        more prototypes of how the users sort and filter the products.</p>
-
-                                    <h4 class="section-sub-header">Appreciate and comprehend the work of others</h4>
-                                    <p>There were times when I felt stuck working on the project. Doing the research and
-                                        looking for inspirations have helped me broaden my creative library and practice
-                                        thinking critically about
-                                        each solution designers came up with solving their challenge.</p>
-
-                                    <h2 class="section-header pt1">Going Forward</h2>
-                                    <p>For phase II of this project, I would like to explore the following ideas and
-                                        features:</p>
-                                    <ul class="next-steps">
-                                        <li>Working on the functional icon in the checkout process, like selecting size
-                                            and color</li>
-                                        <li>Publish the official website</li>
-                                        <li>Work on the branding and packaging</li>
-                                    </ul>
+                            <div class="grid-x grid-padding-x align-center text-left">
+                                <div class="cell medium-8">
+                                    <h3 class="phase-title pb1">The Framework</h3>
+                                    <h2 class="section-header">Wireframe with Whimsical</h2>
+                                    <p>Starting with wireframes, I was able to explore all of my ideas. I didn’t have to
+                                        worry about anything else but the structure and how content was going to be laid out.
+                                        Using Whimsical, I worked on refining the hand-drawn sketch, focused on hierarchy,
+                                        design elements, as well as placements. I created multiple layouts for the same screen
+                                        and asked for feedback. Although paper wireframes can communicate a whole lot by
+                                        themselves, creating a mid-fidelity wireframe helped me gather more insightful feedback from
+                                        potential users. I believe it is important never to ask my users to imagine things because it can
+                                        sometimes go in a very different direction.</p>
+                                </div>
+                            </div>
+                        </div><br>
+                        <img src="./images/novelty/noveltywireframe.svg" alt="novelty Wireframes" />
+                        <div class="grid-container section-container">
+                            <div class="grid-x grid-padding-x align-center text-left">
+                                <div class="cell medium-8">
+                                    <p>To do some testings before jumping into high-fidelity mockups, I decided to
+                                        create
+                                        an interactive prototype with Whimsical. I particularly tested the following
+                                        flows
+                                        <ol class="number-list-style">
+                                            <li><span class="bold-text">Sign up/ Sign in process</span></li>
+                                            <li><span class="bold-text">Finding a specific item(s)</span></li>
+                                            <li><span class="bold-text">Checkout process</span></li>
+                                        </ol>
+                                    </p>
+                                    <div class="text-center pt1">
+                                        <a href="https://invis.io/Y4T4ICUE58H" target="_blank"
+                                            class="button hvr-shrink">View
+                                            Interactive
+                                            Prototype</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="grid-x">
+                    <div class="the-experience section-container bg-yellow">
+                        <div class="grid-container">
+                            <div class="grid-x grid-padding-x align-center align-middle text-left">
+                                <div class="cell medium-10 large-8">
+                                    <h3 class="phase-title pb1">The Experience</h3>
+                                    <h2 class="section-header">Identity, Logo, Visual Design</h2>
+                                    <p>The NØVELTY logo is minimal symbol design with the novelty concept and the Ø
+                                        combination.
+                                        This powerful symbol represents the NØVELTY shopping experience.</p>
+                                </div>
+                                <div class="cell medium-6 large-4 text-center show-for-medium">
+                                    <img src="images/novelty/2 logo.svg" alt="Logo Design" class="lightbulb" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-container grid-container">
+                        <div class="grid-x grid-padding-x text-left">
+                            <div class="cell medium-7 large-8">
+                                <h4 class="section-sub-header">Color Palette</h4>
+                                <p>NØVELTY uses minimal colors like white, black and shades of gray as the main color
+                                    palette. It
+                                    shows the luxury feeling for the users.</p>
+                            </div>
+                            <div class="cell medium-5 large-4">
+                                <div class="grid-x align-center">
+                                    <div class="cell small-6">
+                                    </div>
+                                </div>
+                                <img src="images/novelty/colorpalette.png" alt="Moodboard for Inspiration"
+                                    class="moodboard show-for-medium align-self-bottom pt1" />
+                            </div>
+
+                            <div class="cell medium-7 large-8 pt2">
+                                <h4 class="section-sub-header">Typography</h4>
+                                <p> <span class="bold-text">Montserrat</span> is a geometric sans-serif typeface
+                                    representative of
+                                    the aesthetics, very simple and universal. It has an appearance of efficiency and
+                                    forwardness in
+                                    the design. It allows us to emphasize the voices on NØVELTY.</p>
+                                <a href="" class="see-more hvr-icon-forward is-block pt1 show-for-medium"
+                                    target="_blank">View
+                                    Styleguide<i class="fas fa-angle-double-right hvr-icon"></i></a>
+                            </div>
+                            <div class="cell medium-5 large-4 stylecard">
+                                <img src="images/novelty/font-montserrat.svg" alt="Typography Sampler"
+                                    class="typography">
+                                <a href="images/novelty/font-montserrat.svg"
+                                    class="see-more hvr-icon-forward is-block pt1 hide-for-medium" target="_blank">View
+                                    Styleguide<i class="fas fa-angle-double-right hvr-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="the-refinement section-container bg-yellow">
+                        <div class="grid-container">
+                            <div class="grid-x grid-padding-x align-center text-left">
+                                <div class="cell medium-8">
+                                    <h3 class="phase-title pb1">The Refinement</h3>
+                                    <h2 class="section-header">Testing &amp; Iteration</h2>
+
+                                    <p>Usability tests and metrics revealed that some of the process and design
+                                        decisions I made were not as intuitive as I thought. Referring back to the
+                                        personas, I knew that users
+                                        heavily value a user-friendly product and would like to minimize the time spent
+                                        on understanding it. As a result, I needed to iterate, test, and achieve
+                                        measurable outcomes to overcome these product shortcomings.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenges">
+                        <div class="grid-container">
+                            <div class="grid-x grid-padding-x align-middle align-center section-container">
+                                <div class="cell">
+                                    <h4 class="section-sub-header text-center pb1">Challenge #1 - Path</h4>
+                                </div>
+                                <div class="cell medium-10 large-8 pt1 show-for-medium">
+                                    <div class="grid-x grid-padding-x align-center">
+                                        <div class="cell medium-5">
+                                            <h5 class="testing-header is-inline-block">Feedback</h5>
+                                            <ul>
+                                                <li>The users expect to see the path when they searched for the items
+                                                    through the
+                                                    categories.</li>
+
+                                            </ul>
+                                            <span class="screenshot-wrapper">
+                                                <img src="images/novelty/Product.png" alt=""><br>
+                                                <em class="is-block pt1">Initial design</em>
+                                            </span>
+                                        </div>
+                                        <div class="cell medium-5">
+                                            <h5 class="testing-header is-inline-block">Solution</h5>
+                                            <ul>
+                                                <li>Add the path, shows how to get to the product page.</li><br><br>
+                                            </ul><br>
+                                            <span class="screenshot-wrapper">
+                                                <img src="images/novelty/Product Iteration.png" alt=""><br>
+                                                <em class="is-block pt1">Final Design</em>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="conclusion section-container">
+                                    <div class="grid-container">
+                                        <div class="grid-x grid-padding-x text-left align-center">
+                                            <div class="cell medium-10 large-8">
+                                                <h3 class="phase-title pb2">Conclusion</h3>
+                                                <h2 class="section-header pb1">Lessons Learned</h2>
+                                                <h4 class="section-sub-header">If I had more time,</h4>
+                                                <p>I would add more details on the landing page. I will do more screens
+                                                    and show
+                                                    more prototypes of how the users sort and filter the products.</p>
+
+                                                <h4 class="section-sub-header">Appreciate and comprehend the work of
+                                                    others</h4>
+                                                <p>There were times when I felt stuck working on the project. Doing the
+                                                    research and
+                                                    looking for inspirations have helped me broaden my creative library
+                                                    and practice
+                                                    thinking critically about
+                                                    each solution designers came up with solving their challenge.</p>
+
+                                                <h2 class="section-header pt1">Going Forward</h2>
+                                                <p>For phase II of this project, I would like to explore the following
+                                                    ideas and
+                                                    features:</p>
+                                                <ul class="next-steps">
+                                                    <li>Work on the functional icon in the checkout process.</li>
+                                                    <li>Publish the official website</li>
+                                                    <li>Work on the branding and packaging design</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="grid-x">
             <div class="cell medium-4 pb1">
                 <div class="img-container">
                     <img src="images/novelty/woman-2-phone.png" alt="Woman Using Bömbox Application" class="zoom">
@@ -541,42 +600,42 @@
                 </div>
             </div>
         </div> -->
-                </div>
-                <!-- Footer-->
-                <section class="footer section-container">
-                    <div class="footer-message pb2">
-                        <h2 class="">Contact</h2>
-                        <p>Want to know more or just chat?</p>
-                    </div>
-                    <!-- <div class="home-cta">
+                            </div>
+                            <!-- Footer-->
+                            <section class="footer section-container">
+                                <div class="footer-message pb2">
+                                    <h2 class="">Contact</h2>
+                                    <p>Want to know more or just chat?</p>
+                                </div>
+                                <!-- <div class="home-cta">
                     <a class="button" href="mailto:p3nnydesign@gmail.com">Send Message</a>
                   </div>
         <br> -->
-                    <div class=" my-social-icons">
-                        <a href="mailto:p3nnydesign@gmail.com"><img src="images/mail.svg" alt=""
-                                class="mail hvr-bob" /></a>
-                        <a href="https://dribbble.com/p3nnydesign" target="_blank"><img src="images/dribble.svg" alt=""
-                                class="logo-dribbble-square hvr-bob" /></a>
-                        <a href="https://www.linkedin.com/in/p3nnydesign/" target="_blank"><img
-                                src="images/linkedin.svg" alt="" class="logo-linkedin hvr-bob"></a>
-                        <!-- <a href="https://www.instagram.com/p3nnybear/" target="_blank"><img
+                                <div class=" my-social-icons">
+                                    <a href="mailto:p3nnydesign@gmail.com"><img src="images/mail.svg" alt=""
+                                            class="mail hvr-bob" /></a>
+                                    <a href="https://dribbble.com/p3nnydesign" target="_blank"><img
+                                            src="images/dribble.svg" alt="" class="logo-dribbble-square hvr-bob" /></a>
+                                    <a href="https://www.linkedin.com/in/p3nnydesign/" target="_blank"><img
+                                            src="images/linkedin.svg" alt="" class="logo-linkedin hvr-bob"></a>
+                                    <!-- <a href="https://www.instagram.com/p3nnybear/" target="_blank"><img
                                 src="images/instagram.svg" alt="" class="logo-linkedin hvr-bob"></a> -->
-                        <a href="https://www.behance.net/p3nnydesign" target="_blank"><img src="images/behance.svg"
-                                alt="" class="logo-linkedin hvr-bob"></a>
-                        <a href="https://github.com/p3nnybear" target="_blank"><img src="images/git.svg" alt=""
-                                class="logo-github hvr-bob" /></a>
-                        <div class="footer-message pb2"><br>
-                            <p>© Designed & Developed by Pinyi Li 2019</p>
-                        </div>
-                    </div>
-                </section>
-                <!-- End Footer -->
-                <!-- End body-->
-                <script src="js/vendor/jquery.js"></script>
-                <script src="js/vendor/what-input.js"></script>
-                <script src="js/vendor/foundation.min.js"></script>
-                <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
-                <script src="js/app.js"></script>
+                                    <a href="https://www.behance.net/p3nnydesign" target="_blank"><img
+                                            src="images/behance.svg" alt="" class="logo-linkedin hvr-bob"></a>
+                                    <a href="https://github.com/p3nnybear" target="_blank"><img src="images/git.svg"
+                                            alt="" class="logo-github hvr-bob" /></a>
+                                    <div class="footer-message pb2"><br>
+                                        <p>© Designed & Developed by Pinyi Li 2019</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- End Footer -->
+                            <!-- End body-->
+                            <script src="js/vendor/jquery.js"></script>
+                            <script src="js/vendor/what-input.js"></script>
+                            <script src="js/vendor/foundation.min.js"></script>
+                            <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+                            <script src="js/app.js"></script>
     </main>
 </body>
 

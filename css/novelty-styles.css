@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-sub-header, .research-findings h4 {
   font-size: 20px;
   font-weight: 600;
+  /* cursor: -webkit-zoom-in; */
 }
 
 .button {
@@ -161,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .research-findings img {
   margin-bottom: 0.9rem;
+  /* cursor: -webkit-zoom-in; */
 }
 
 .rf-icon-thumbsup {
@@ -242,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .diagram {
   margin-bottom: 2.5rem;
+  cursor: -webkit-zoom-in;
 }
 
 .music-lovers-profiles {
@@ -317,9 +320,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-.comp-analysis img {
+/* .comp-analysis img {
   max-width: 6rem;
-}
+} */
 
 .number-list-style {
   margin: 0 0 1.5em;
@@ -536,6 +539,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pt2 {
   padding-top: 2rem;
+  /* cursor: -webkit-zoom-in; */
 }
 
 .pb2 {
