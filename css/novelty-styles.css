@@ -12,6 +12,15 @@
   font-style: normal;
   font-weight: 600;
 }
+.bg-gray {
+  background-color: #F6F6F6;
+}
+
+.research-findings img {
+  margin-bottom: 0.9rem;
+  max-width: 30%;
+
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
@@ -45,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
 .section-sub-header, .research-findings h4 {
   font-size: 20px;
   font-weight: 600;
-  /* cursor: -webkit-zoom-in; */
 }
 
 .button {
@@ -53,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 30px;
   line-height: 1rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  background-color: #828282;
+  background-color: black;
   font-size: 0 .875rem;
   text-align: center;
   color: #ffffff;
@@ -62,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button:hover, .button:focus {
-  background-color: #828282;
+  background-color:black;
 }
 
 /*  Sections Styling  */
@@ -162,7 +170,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .research-findings img {
   margin-bottom: 0.9rem;
-  /* cursor: -webkit-zoom-in; */
 }
 
 .rf-icon-thumbsup {
@@ -244,7 +251,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .diagram {
   margin-bottom: 2.5rem;
-  cursor: -webkit-zoom-in;
 }
 
 .music-lovers-profiles {
@@ -539,7 +545,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .pt2 {
   padding-top: 2rem;
-  /* cursor: -webkit-zoom-in; */
 }
 
 .pb2 {

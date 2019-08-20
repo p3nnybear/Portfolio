@@ -12,6 +12,7 @@
 
 h2 {
   font-family: 'PT Sans', sans-serif;
+  margin-top: 6px;
 }
 
 p, li, a {
@@ -618,7 +619,9 @@ figure.effect-bubba:hover h2, figure.effect-bubba:hover p {
   }
   .logo-image {
     height: 2.5rem;
+    padding-top:6px;
   }
+
   #drop-menu .menu-items li {
     display: block;
     text-align: center;

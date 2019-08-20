@@ -15,7 +15,7 @@ var myChart = new Chart(ctx, {
       legend: { display: false },
       title: {
         display: true,
-        text: 'What kind of items would you buy online?'
+        text: 'Kind of items respondents buy online'
       }
     }
 });
