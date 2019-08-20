@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+/* .research-findings section-container bg-gray, cell small-6 medium-4, img {
+  max-width: 30%;
+} */
+
 .button {
   min-width: 250px;
   padding: 15px 30px;
@@ -159,6 +163,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .research-findings img {
   margin-bottom: 0.9rem;
+  max-width: 30%;
+
 }
 
 .rf-icon-thumbsup {
