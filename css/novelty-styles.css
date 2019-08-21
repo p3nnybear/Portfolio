@@ -592,11 +592,13 @@ h1, h2, h3, h4, h5, h6 {
   transition-duration: 0.2s;
   -webkit-transition-property: transform;
   transition-property: transform;
+  font-size: 18px;
 }
 
 .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
   -webkit-transform: scale(0.95);
   transform: scale(0.95);
+  font-size: 18px;
 }
 
 /*  CSS Animation: Icon Forward  */
