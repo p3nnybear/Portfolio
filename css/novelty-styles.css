@@ -16,6 +16,10 @@
   background-color: #F6F6F6;
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .research-findings img {
   margin-bottom: 0.9rem;
   max-width: 30%;
@@ -46,6 +50,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
   letter-spacing: -0.3px;
 }
+
+h4.section-sub-header.pb1 {
+  color: lightgray;
+}
+p.pb1 {
+  color: lightgray;
+}
+
+
 
 .sticky-topbar-scrolled {
   box-shadow: 0 3px 2px -2px rgba(0, 0, 0, .2);
