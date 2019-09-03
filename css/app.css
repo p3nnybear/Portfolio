@@ -235,7 +235,7 @@ p, li, a {
 
 .greeting h1>span {
   letter-spacing: 0.1px;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .waver {
@@ -675,8 +675,12 @@ figure.effect-bubba:hover h2, figure.effect-bubba:hover p {
     padding-bottom: 0;
   }
   .logo-image {
-    height: 2.5rem;
-    padding-top:6px;
+    height: 3.5rem;
+    padding-top:13px;
+  }
+
+  p {
+      font-size: 1rem;
   }
 
   #drop-menu .menu-items li {
@@ -1108,8 +1112,6 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
 }
 
 p {
-    margin-bottom: 1rem;
-    font-size: inherit;
     line-height: 1.6;
     text-rendering: optimizeLegibility
 }
@@ -1626,7 +1628,6 @@ ol.no-bullet, ul.no-bullet {
     line-height: 1;
     text-align: center;
     cursor: pointer;
-    background-color: #2ba6cb;
     color: #fefefe
 }
 
