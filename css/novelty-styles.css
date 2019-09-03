@@ -514,32 +514,6 @@ p.pb1 {
   }
 }
 
-/*  Global Footer Project Navigation */
-
-.back-to-top {
-  text-align: center;
-}
-
-.back-to-top a {
-  text-decoration: none;
-}
-
-.back-to-top a:hover, .back-to-top a:focus {
-  color: #3d3d3d;
-}
-
-.project-border {
-  border-top: solid #3d3d3d 1px;
-}
-
-.footer-container .grid-x {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.nav-direction {
-  text-transform: uppercase;
-}
 
 /*  Utility Classes  */
 

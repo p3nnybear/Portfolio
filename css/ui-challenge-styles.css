@@ -93,31 +93,6 @@ a {
 }
 
 
-/*  Small Screen  */
-@media screen and (max-width: 39.9375em) {
-  .intro-display {
-    margin-top: -1rem;
-    padding-bottom: 2rem;
-  }
-}
-
-.line-decor-top::before,
-.line-decor-bottom::after {
-  content: "";
-  width: 38px;
-  height: 0;
-  border-top: solid 1px #656363;
-  display: inline-block;
-}
-
-.line-decor-top::before {
-  margin-bottom: 2rem;
-}
-
-.line-decor-bottom::after {
-  margin-top: 2rem;
-}
-
 
 /*  Medium & Up  */
 @media screen and (min-width: 40em) {
